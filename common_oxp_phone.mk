@@ -1,5 +1,5 @@
 # Inherit common CM stuff
-$(call inherit-product, vendor/oxp/config/common_oxp.mk)
+$(call inherit-product, vendor/oxp/common_oxp.mk)
 
 # Bring in all audio files
 include frameworks/base/data/sounds/NewAudio.mk
